@@ -19,7 +19,8 @@ class Matrix
 	// returns the identity matrix
 	static identity()
 	{
-		
+		var matrix = new Float32Array([1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1]);
+		return matrix;
 	}
 
 	// given two matrices (as Float32Arrays), multiplies them together and returns the result
